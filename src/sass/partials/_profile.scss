@@ -1,0 +1,72 @@
+.profile {
+  padding: 40px 20px;
+
+  .header {
+    display: flex;
+    align-items: center;
+
+    .profile-pic {
+      border-radius: 50%;
+      width: 100px;
+      height: 100px;
+    }
+
+    .info {
+      margin-left: 20px;
+
+      .username {
+        font-size: 2rem;
+        color: $primary-color;
+      }
+
+      .edit-button {
+        background-color: $highlight-color;
+        padding: 10px 20px;
+        font-size: 1rem;
+      }
+    }
+  }
+
+  .history {
+    margin-top: 20px;
+
+    .section-title {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      color: $primary-color;
+    }
+
+    .card-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+
+      .card {
+        background-color: $secondary-color;
+        border-radius: 10px;
+        overflow: hidden;
+        width: 200px;
+        color: $text-color;
+
+        img {
+          width: 100%;
+          height: auto;
+        }
+
+        .card-content {
+          padding: 15px;
+
+          .title {
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+          }
+
+          .rating {
+            font-size: 1rem;
+            color: $highlight-color;
+          }
+        }
+      }
+    }
+  }
+}
