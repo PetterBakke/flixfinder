@@ -1,7 +1,7 @@
 import React from 'react';
-import Header from './components/Header';
-import Hero from './components/Hero';
-import RecommendedSection from './components/RecommendedSection';
+import Header from './components/header/Header';
+import Hero from './components/hero/Hero';
+import RecommendedSection from './components/recommendsection/recommendSection';
 
 const App = () => {
   return (

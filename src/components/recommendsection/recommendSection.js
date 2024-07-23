@@ -1,6 +1,6 @@
 import React from 'react';
-import './RecommendedSection.scss';
-import MovieCard from './MovieCard';
+// import './RecommendedSection.scss';
+import MovieCard from '../moviecard/MovieCard';
 
 const RecommendedSection = ({ title }) => {
   return (
