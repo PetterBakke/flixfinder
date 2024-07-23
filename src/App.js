@@ -1,13 +1,17 @@
-import "./sass/styles.scss";
+import React from 'react';
+import Header from './components/Header';
+import Hero from './components/Hero';
+import RecommendedSection from './components/RecommendedSection';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        hello
-      </header>
+    <div className="app">
+      <Header />
+      <Hero />
+      <RecommendedSection title="Popular Movies" />
+      <RecommendedSection title="New Releases" />
     </div>
   );
-}
+};
 
 export default App;
